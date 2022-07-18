@@ -10,4 +10,20 @@ public class Produto {
     private long id;
     @Column(name = "nomeProduto")
     private String nomeProduto;
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getNomeProduto() {
+        return nomeProduto;
+    }
+
+    public void setNomeProduto(String nomeProduto) {
+        this.nomeProduto = nomeProduto;
+    }
 }
